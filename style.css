@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Poppins", serif;
+    background-color: aliceblue;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    
+}
+
+.logo a{
+    font-size: 32px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.5s all ease;
+}
+
+
+
+.moving-text {
+    animation: bounce 2s infinite ease-in-out;
+}
+
+/* Keyframes to create the bounce effect */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Add a color animation for the name part */
+.name {
+    color: #007bff;
+    animation: colorChange 3s infinite alternate;
+}
+
+/* Keyframes for color change effect */
+@keyframes colorChange {
+    0% {
+        color: #007bff;
+    }
+    50% {
+        color: #28a745;
+    }
+    100% {
+        color: #ff6347;
+    }
+}
+
+
+#saidimg{
+    height: 400px;
+    transition: 0.5s all ease;
+    border-radius: 70px;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 1); /* وهج قوي */
+        opacity: 1;
+}
+
+#saidimg:hover{
+    opacity: 0.7;
+    scale: 1.05;
+    animation: glowEffect 0.7s ease forwards;
+    
+
+
+}
+
+@keyframes glowEffect {
+    0% {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* الظل العادي في البداية */
+        opacity: 1;
+    }
+    
+    100% {
+        box-shadow: 0 0 30px rgb(230, 11, 230); /* وهج قوي */
+        opacity: 1;
+    }
+}
+
+.skills{
+    
+}
+
+.skillstitle{
+    font-size: 26px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+
+
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 1.25rem;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.card-body i {
+    color: #007bff;
+    margin-right: 8px;
+}
+
+
+.projectTitle{
+    font-size: 26px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+
+.project{
+    margin-top: 180px;
+    padding-bottom: 130px;
+}
+
+.contacttitle{
+    font-size: 26px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+
+.contact{
+    margin-top: 0px;
+    padding-bottom: 30px;  
+}
+
+.more{
+    background-color: rgb(31, 53, 247);
+    color: white;
+    padding: 5px 32px;
+    border-radius: 12px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+.more:hover{
+    background-color: rgb(96, 110, 235);
+    color: white;
+    padding: 5px 32px;
+}

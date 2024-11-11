@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Said Bouali</title>
+
+    <!-- Link css and frameworks -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href="">Said</a>
+            </div>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projet">Project</a>
+                </li>
+                
+            </ul>
+        </div>
+
+
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./img/Said Bouali.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="300" height="300" loading="lazy" id="saidimg">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Hi, I'm <span class="name typing-text">Said Bouali</span></h1>
+                <h2>front-end web developer.</h2>
+                <p class="lead">I'm passionate about building interactive, visually engaging, and responsive web applications that prioritize user experience. With a focus on clean, efficient code and modern design principles, I enjoy bringing creative ideas to life on the web.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" onclick="downloadCV()">Download My CV</button>
+                
+                  <button type="button" class="btn btn-outline-secondary btn-lg px-4" onclick="window.location.href='#projet'">Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+
+          <div class="skills">
+            <p class="skillstitle" id="skills">My Skills</p>
+            <div class="row">
+              <!-- HTML Skill Card -->
+              <div class="col-md-4 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title"><i class="fa-solid fa-code"></i> HTML5</h5>
+                          <p>Proficient in creating semantic, accessible, and responsive web pages using HTML5.</p>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- CSS Skill Card -->
+              <div class="col-md-4 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title"><i class="fa-solid fa-paint-brush"></i> CSS3</h5>
+                          <p>Skilled in using CSS3 for styling websites with Flexbox, Grid, and animations.</p>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- JavaScript Skill Card -->
+              <div class="col-md-4 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title"><i class="fa-solid fa-code"></i> JavaScript</h5>
+                          <p>Experienced in JavaScript for dynamic, interactive web applications.</p>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- React Skill Card -->
+              <div class="col-md-4 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title"><i class="fa-brands fa-react"></i> React</h5>
+                          <p>Proficient in building scalable applications using React.js and state management.</p>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- Vue Skill Card -->
+              <div class="col-md-4 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title"><i class="fa-brands fa-vuejs"></i> Vue.js</h5>
+                          <p>Experienced in creating efficient and modular front-end applications with Vue.js.</p>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- Git Skill Card -->
+              <div class="col-md-4 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title"><i class="fa-brands fa-github"></i> Git</h5>
+                          <p>Experienced with version control using Git and GitHub for collaborative projects.</p>
+                      </div>
+                  </div>
+              </div>
+  
+              
+  
+              <!-- bootstrap Skill Card -->
+              <div class="col-md-4 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title"><i class="fa-brands fa-bootstrap"></i>Bootstrap</h5>
+                          <p>Experienced with Bootstrap for building responsive, mobile-first websites using its grid system .</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          
+          </div>
+         
+
+          <div class="project" id="projet">
+            <p class="projectTitle">My project</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./img/projet.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dashboard</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+
+                    </p>
+                    <a href="" class="more" style="background-color: red;">Not Avalaibl</a>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 24 Day ago</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./img/projet.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Game Landing Page</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+
+                    </p>
+                    <a href="https://saidbouali2002.github.io/ninja-scape/" target="_blank" class="more">More</a>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 1 Day ago</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./img/projet.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Watch Ads Site</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+
+                    </p>
+                    <a href="https://saidbouali2002.github.io/watch-ads/" class="more" target="_blank">More</a>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 29 Day ago</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./img/projet.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Job Portal</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <a href="https://saidbouali2002.github.io/careerdz/" class="more" target="_blank">More</a>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 5 Hours ago</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="contact">
+            <p class="contacttitle">Contact Me</p>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">Contact Me</h5>
+                    <p class="card-text">
+                      <i class="fas fa-envelope"></i> Email: saidbouali2002@gmail.com
+                    </p>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">Contact Me</h5>
+                    <p class="card-text">
+                      <i class="fas fa-phone"></i> Phone: +213792609665
+                    </p>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          
+
+          
+          
+
+    </div>
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          
+        <div class="text-center mt-4">
+          <p>&copy; 2024 Said Bouali. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
